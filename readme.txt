@@ -19,7 +19,8 @@ git config --global user.email 邮箱  ---设置用户签名
 git rm --cached 文件名  ---删除暂存区的文件
 
 git branch 分支名  --创建分支
-git granch -v  --查看分支
+git branch -v  --查看本地分支
+git branch -a  --查看所有分支
 git checkout 分支名  --切换分支
 git merge 分支名  ---把指定的分支合并到当前分支
 
