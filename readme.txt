@@ -23,7 +23,7 @@ git branch -v  --查看本地分支
 git branch -a  --查看所有分支
 git checkout 分支名  --切换分支
 git merge 分支名  ---把指定的分支合并到当前分支
-
+git pull origin master :在当前分支拉取master分支的代码
 git pull 别名/地址 分支名---更新远程代码库的代码（推送人必须在项目成员中）
 
 git clone 远程地址 ---clone之后会自动创建地址别名 为origin
@@ -56,5 +56,3 @@ git remote -v:查看远程仓库详细信息，可以看到仓库名称，关联
 git remote remove origin：删除origin仓库（比如名称错误）
 git remote add origin 仓库地址：重新添加远程仓库地址
 gti push -u origin master： 提交到远程仓库的master主干
-
-主干有修改
