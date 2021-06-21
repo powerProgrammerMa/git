@@ -50,3 +50,9 @@ git remote add 别名 远程地址  ---创建别名
 本地删除：git tag -d v1.0
 远程删除：git push origin :refs/tags/v1.0
 
+
+
+git remote -v：    查看远程仓库详细信息，可以看到仓库名称，关联地址
+git remote remove orign：删除orign仓库（比如名称错误）
+git remote add origin 仓库地址：重新添加远程仓库地址
+gti push -u origin master： 提交到远程仓库的master主干
