@@ -32,7 +32,10 @@ git clone 远程地址 ---clone之后会自动创建地址别名 为origin
 
 跨团队之间协作需要fork——》pullrequest(提交给另外一个团队)->merge pullrequest（合并别人提交过来的代码）
 
-创建本地公钥和私钥：生成 ssh-keygen -t rsa -C mjs1706@sina.com  然后在git配置到项目里面
+创建本地公钥和私钥：
+    生成 ssh-keygen -t rsa -C mjs1706@sina.com  
+    查看公钥：cat ~/.ssh/id_rsa.pub
+    然后在git配置到SSH
 
 创建远程仓库别名：
 git remote -v 查看当前所有远程地址别名
