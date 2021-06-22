@@ -25,7 +25,7 @@ git checkout 分支名  --切换分支
 git merge 分支名  ---把指定的分支合并到当前分支
 git pull origin master :在当前分支拉取master分支的代码
 git pull 别名/地址 分支名---更新远程代码库的代码（推送人必须在项目成员中）
-
+git push --set-upstream origin 分支名 ：设置本地分支追踪远程分支
 git clone 远程地址 ---clone之后会自动创建地址别名 为origin
 
 
